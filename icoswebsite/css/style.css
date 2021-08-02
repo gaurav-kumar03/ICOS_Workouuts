@@ -280,46 +280,6 @@ text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
     margin-left: 50px;
 	margin-top: 15px;
 }
-.centerdiv{
-	height: 10vh;
-	display: flex;
-	
-    align-items: center;
-	
-}
-.centerdiv a{
-	display: flex;
-	height: 60px;
-	width: 60px;
-	background-color: #FFF;
-	border-radius: 30px;
-	text-align: center;
-	margin: 10px;
-	line-height: 80px;
-	box-shadow: 1px 4px 2px 2px #dcdde1;
-}
-
-.centerdiv a i{
-	font-size: 30px;
-	
-   transition: all 0.3s linear;
-  
-}
-
-.centerdiv a:hover i{
-	transform: scale(1.4);
-}
-
-.centerdiv .fa-facebook{
-	color:#001CFF;
-}
-.centerdiv .fa-instagram{
-	color: #e84118;
-}
-.centerdiv .fa-linkedin{
-	color: #0097e6;
-}
-
 .navbar {
 	font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -489,7 +449,7 @@ text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
 	font-size: 14px;
 	padding-top: 5px;
 	height: 60px;
-	background-color: rgba(0, 174, 218, 1);
+	background-color: Black;
 	-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
 	-o-transition: all 0.6s;
@@ -582,8 +542,8 @@ text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
 
 .btn-action {
  font-family: 'Roboto', sans-serif;
- background-color: #00aeda;
- border: 1px solid #00aeda;
+ background-color: #F4542D;
+ border: 1px solid #F4542D;
  border-radius: 0;
  color: #FFFFFF;
  font-size: 15px;
@@ -603,9 +563,9 @@ text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
 .btn-action:active, .btn-action:active:focus {
  background: transparent;
  outline: none;
- color: #00aeda;
+ color: #F4542D;
  background: transparent;
- border-color: #00aeda;
+ border-color: #F4542D;
 }
 
 
@@ -739,15 +699,15 @@ font-family: Arial;
 }
 
 .form .btn-action {
-	background: #00aeda;
-	border-color: #00aeda;
+	background: #808080;
+	border-color: #808080;
 	color: #FFFFFF;
 }
 
 .form .btn-action:hover {
 	background: transparent;
-	border-color: #00aeda;
-	color: #00aeda;
+	border-color: #F4542D;
+	color: #F4542D;
 }
 
 
@@ -807,7 +767,7 @@ font-family: Arial;
 
 .signup-form {
 	padding: 25px 25px 30px 25px;
-	background: #00aeda;
+	background: #F4542D;
 	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
 	text-align: left;
 }
@@ -844,34 +804,34 @@ font-family: Arial;
 
 
 .signup .btn-action.btn-round {
-	background: #00aeda;
-	border-color: #00aeda;
+	background: #F4542D;
+	border-color: #F4542D;
 	color: #FFFFFF;
 	font-size: 15px;
 	padding: 12px 24px;
 	font-weight: 600;
 	text-transform: capitalize;
-	border: 2px solid #00aeda;
+	border: 2px solid #F4542D;
 	border-radius: 30px;
 }
 
 .signup .btn-action.btn-round:hover, .signup .btn-action.btn-round:focus {
 	background: transparent;
-	color: #00aeda;
-	border-color: #00aeda;
+	color: #F4542D;
+	border-color: #F4542D;
 }
 
 
 .signup .btn-action {
-	background: #00aeda;
-	border-color: #00aeda;
+	background: #F4542D;
+	border-color: #F4542D;
 	color: #FFFFFF;
 }
 
 .signup .btn-action:hover {
 	background: transparent;
-	border-color: #00aeda;
-	color: #00aeda;
+	border-color: #F4542D;
+	color: #F4542D;
 }
 
 
@@ -1093,13 +1053,13 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app .btn-action {
 	color: #FFFFFF;
-	background: #00aeda;
-	border-color: #00aeda;
+	background: transparent;
+	border-color: black;
 	 border-radius: 30px;
 }
 
 .app .btn-action:hover {
-	color: #00aeda;
+	color: white;
 	background: #222225;
 	border-color: #222225;
 }
@@ -1217,7 +1177,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 /* ----- Client Sectiion Styling ----- */
 
 .client-section {
-	background-color: #00aeda;
+	background-color: #F4542D;
 	padding: 5px 0 0 0;
 }
 
@@ -1267,7 +1227,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .pitch-icon {
 	margin: 0 0 10px 0;
-	background: #00aeda;
+	background: #F4542D;
 	width: 60px;
 	height: 60px;
 	display: inline-block;
@@ -1458,14 +1418,14 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .feature-sub .sub-inner .btn-action {
 	color: #FFFFFF;
-	background: #00aeda;
-	border-color: #00aeda;
+	background: #F4542D;
+	border-color: #F4542D;
 }
 
 .feature-sub .sub-inner .btn-action:hover {
-	color: #00aeda;
+	color: #F4542D;
 	background: transparent;
-	border-color: #00aeda;
+	border-color: #F4542D;
 }
 
 .feature-sub {
@@ -1541,7 +1501,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app-features .icon i {
 	font-size: 60px;
-	color: #00aeda;
+	color: #F4542D;
 }
 
 
@@ -1620,11 +1580,17 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	margin-left: 15px;
 	color: #A1A1A1;
 }
-
+#split-featuresTwo{
+	padding-right: 100px;
+}
 .split-features2 {
 	background: #FFFFFF;
-	padding: 50px 0 50px 0;
+   
+
 	overflow: hidden;
+
+	justify-content: space-between;
+	
 }
 
 
@@ -1636,7 +1602,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .review-section {
 	padding: 150px 0 150px 0;
 	text-align: center;
-	background: #00aeda;
+	background: #F4542D;
 }
 
 
@@ -1785,7 +1751,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .table-left .icon, .table-right .icon {
 	font-size:60px;
 	margin: 0 auto;
-	color:#00aeda;
+	color:#F4542D;
 }
 
 .table-left .pricing-details span, .table-right .pricing-details span {
@@ -1870,7 +1836,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .counter-icon i {
   font-size: 48px;
-  color: #00aeda;
+  color: #F4542D;
 }
 
 .counter-text {
@@ -2021,6 +1987,46 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 /* ------- Footer Section Styling Starts ------- */
 
 
+.centerdiv{
+	height: 10vh;
+	display: flex;
+	
+    align-items: center;
+	
+}
+.centerdiv a{
+	display: flex;
+	height: 60px;
+	width: 60px;
+	background-color: #FFF;
+	border-radius: 30px;
+	text-align: center;
+	margin: 10px;
+	line-height: 80px;
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+
+.centerdiv a i{
+	font-size: 30px;
+	
+   transition: all 0.3s linear;
+  
+}
+
+.centerdiv a:hover i{
+	transform: scale(1.4);
+}
+
+.centerdiv .fa-facebook{
+	color:#001CFF;
+}
+.centerdiv .fa-instagram{
+	color: #e84118;
+}
+.centerdiv .fa-linkedin{
+	color: #0097e6;
+}
+
 .footer {
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #222225;
@@ -2064,7 +2070,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 	font-size: 18px;
 	font-weight: 400;
-	color: #00aeda;
+	color: #F4542D ;
 	text-decoration: none;
 	display: inline-block;
 }
@@ -2091,7 +2097,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .footer-menu li a {
-	color: #00aeda;
+	color: #0074C8;
 	text-decoration: none;
 }
 
